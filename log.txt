@@ -1,0 +1,573 @@
+--------- beginning of main
+05-08 04:30:21.263  8418 10794 E reader_network_resp: https://osservice.vmos.com/login/uuid/save?s=7ec35258ab399842259c5abd29099b97&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194821169&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:21.263  8418 10794 E reader_network_resp: timestamp: 1778194821171
+05-08 04:30:21.263  8418 10794 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:21.263  8418 10794 E reader_network_resp:  
+05-08 04:30:21.273  8418 10795 E reader_network_resp: https://osservice.vmos.com/gather/trajectory/save?s=faf695d0a759025c0cf328c89bf62bb1&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194821168&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:21.273  8418 10795 E reader_network_resp: timestamp: 1778194821171
+05-08 04:30:21.273  8418 10795 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:21.273  8418 10795 E reader_network_resp:  
+05-08 04:30:21.377  8418  8418 D AudioRecord: set(): 0x7396127630, inputSource 1, sampleRate 8000, format 0x2, channelMask 0x10, frameCount 320, notificationFrames 0, sessionId 0, transferType 0, flags 0, attributionSource AttributionSourceState{pid: 8418, uid: 10389, deviceId: 0, packageName: com.vmos.glb, attributionTag: (null), token: binder:0x73d60d64d0, renouncedPermissions: [], next: []} uid -1, pid -1
+05-08 04:30:21.377  8418  8418 D com.vmos.glb: TranAudioRecord:mPackageName = com.vmos.glb.
+05-08 04:30:21.377  8418  8418 W com.vmos.glb: Get process name fail
+05-08 04:30:21.378  8418  8418 D TranMagiqueSon: TranMagiqueSon+ OpPackageName = com.vmos.glb
+05-08 04:30:21.378  8418  8418 D TranMagiqueSon: magiqueSonInit mMagiueSonModeParam[0].mModeType = 1,mMagiueSonModeParam[0].mModeTempo 100,            mMagiueSonModeParam[0].mModePitch = -25,mMagiueSonModeParam[0].mModeRate = 100
+05-08 04:30:21.378  8418  8418 D TranMagiqueSon: magiqueSonInit mMagiueSonModeParam[1].mModeType = 2,mMagiueSonModeParam[1].mModeTempo 100,            mMagiueSonModeParam[1].mModePitch = -70,mMagiueSonModeParam[1].mModeRate = 100
+05-08 04:30:21.378  8418  8418 D TranMagiqueSon: magiqueSonInit mMagiueSonModeParam[2].mModeType = 3,mMagiueSonModeParam[2].mModeTempo 100,            mMagiueSonModeParam[2].mModePitch = 60,mMagiueSonModeParam[2].mModeRate = 100
+05-08 04:30:21.378  8418  8418 D TranMagiqueSon: magiqueSonInit mMagiueSonModeParam[3].mModeType = 4,mMagiueSonModeParam[3].mModeTempo 100,            mMagiueSonModeParam[3].mModePitch = 100,mMagiueSonModeParam[3].mModeRate = 100
+05-08 04:30:21.378  8418  8418 D TranMagiqueSon: magiqueSonInit- mModeSize = 4
+05-08 04:30:21.378  8418  8418 D com.vmos.glb: needGVoicePackageName  = com.pubg.imobile mSpkIndex = -1  mTranOpPackageName = com.vmos.glb needGvoicePid=24770
+05-08 04:30:21.391  8418  8418 D AudioRecord: openRecord_l: 0x7396127630, mCblk = 0x74e7961000
+05-08 04:30:21.392  8418  8418 D AudioRecord: start(12310): 0x7396127630, sync event 0 trigger session 0
+05-08 04:30:21.432  8418  8418 D AudioRecord: start(12310): return status 0
+05-08 04:30:21.432  8418  8418 D AudioRecord: stop(12310): 0x7396127630, mActive: 1
+05-08 04:30:21.432  8418  8418 D AudioTrackShared: this(0x72b611a6f0), mCblk(0x74e7961000), front(0), mIsOut 0, interrupt() FUTEX_WAKE
+05-08 04:30:21.581  8418  8418 D AudioRecord: stop(12310) done
+05-08 04:30:21.581  8418  8418 D AudioRecord: stop(12310): 0x7396127630, mActive: 0
+05-08 04:30:21.581  8418  8418 D AudioRecord: ~AudioRecord(12310): mStatus 0
+05-08 04:30:21.581  8418  8418 D AudioRecord: stop(12310): 0x7396127630, mActive: 0
+05-08 04:30:21.581  8418  8418 D com.vmos.glb: ~TranAudioRecord
+05-08 04:30:21.582  8418  8418 E preferencesSaveCall: saveParam: PermissionAdModel
+05-08 04:30:21.582  8418 12505 I InsetsController: Insets animation onAnimationEnd
+05-08 04:30:21.594  8418  8418 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+05-08 04:30:21.596  8418  8418 D CrashReport: >>> com.vmos.activity.NewSurActivity onPaused <<<
+05-08 04:30:21.596  8418  8418 I CrashReport-Native: Set native info: isAppForeground(false)
+05-08 04:30:21.606  8418  8418 D BLASTBufferQueue: [VRI[NewSurActivity]#7](f:0,a:3) update width=1224 height=2600 format=-1 mTransformHint=0
+05-08 04:30:21.608  8418  8418 D ActivityThread: ++ activityComponent:com.vmos.glb/com.vmos.glb.LauncherActivity counts:1 ALEAK_CLEAR_SUPPORT:true
+05-08 04:30:21.609  8418  8418 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+05-08 04:30:21.609  8418  8418 D CrashReport: >>> com.vmos.glb.LauncherActivity onCreated <<<
+05-08 04:30:21.611  8418 10789 D BLASTBufferQueue: [VRI[NewSurActivity]#7](f:0,a:4) producer disconnected before acquireNextBufferLocked
+05-08 04:30:21.611  8418  8418 I PhoneWindow: LauncherActivity#generateLayout:Window_statusBarColor=0Xff000000
+05-08 04:30:21.613  8418  8418 E trajectoryType: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:21.613  8418  8418 E trajectoryType: ║ Thread: main
+05-08 04:30:21.613  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:21.613  8418  8418 E trajectoryType: ║ PUserTrajectory.postEventReport  (PUserTrajectory.java:41)
+05-08 04:30:21.613  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:21.613  8418  8418 E trajectoryType: ║ 11
+05-08 04:30:21.613  8418  8418 E trajectoryType: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:21.613  8418  8418 D PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:21.613  8418  8418 D PRETTYLOGGER: ║ Thread: main
+05-08 04:30:21.613  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:21.614  8418  8418 D PRETTYLOGGER: ║ ApiManager$3.accept  (ApiManager.java:107)
+05-08 04:30:21.614  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:21.614  8418  8418 D PRETTYLOGGER: ║ doOnSubscribe（Okhttp）：main
+05-08 04:30:21.614  8418  8418 D PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:21.614  8418  8418 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:21.614  8418  8418 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ║ Thread: main
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ║ LauncherActivity.onCreate  (LauncherActivity.java:120)
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ║ uuid=999cdf603f7166bb
+05-08 04:30:21.614  8418  8418 E PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:21.614  8418  8418 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:21.615  8418 12523 D libMEOW : meow new tls: 0x73562b4220
+05-08 04:30:21.615  8418 12523 D libMEOW : applied 0 plugin for [com.vmos.glb].
+05-08 04:30:21.615  8418 12523 D libMEOW : meow delete tls: 0x73562b4220
+05-08 04:30:21.616  8418 10798 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:21.616  8418 10798 E VersionHelper: getRomVersion 
+05-08 04:30:21.616  8418 10798 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:21.618  8418 10798 D xiaozhishi_network_req: 1778194821618--intercept
+05-08 04:30:21.618  8418 10798 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=5e93f0a9585ef88d7ded4055779ae625&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194821616&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:21.618  8418 10798 E reader_network_req: timestamp: 1778194821618
+05-08 04:30:21.618  8418 10798 E reader_network_req: thread: 146441800
+05-08 04:30:21.618  8418 10798 E reader_network_req: Content-Type: application/json; charset=UTF-8
+05-08 04:30:21.618  8418 10798 E reader_network_req: Content-Length: 71
+05-08 04:30:21.618  8418 10798 E reader_network_req: androidApi: 1.0.31
+05-08 04:30:21.618  8418 10798 E reader_network_req: Access-Token: 
+05-08 04:30:21.618  8418 10798 E reader_network_req: User-ID: 999cdf603f7166bb
+05-08 04:30:21.618  8418 10798 E reader_network_req: Content-Type: application/json; charset=utf-8
+05-08 04:30:21.618  8418 10798 E reader_network_req: requestBody: {"msg":"5F/VRoL/I8U6qNIMkKWQTGNqDuptZOMq\n","createTime":1778194821613}
+05-08 04:30:21.618  8418 10798 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=5e93f0a9585ef88d7ded4055779ae625&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194821616&u=999cdf603f7166bb&c=glb&v=100031&rv=0?msg=5F/VRoL/I8U6qNIMkKWQTGNqDuptZOMq
+05-08 04:30:21.618  8418 10798 E reader_network_req: &createTime=1778194821613
+05-08 04:30:21.618  8418 10798 E reader_network_req: REQUEST END (71-byte body)
+05-08 04:30:21.618  8418 10798 E reader_network_req:  
+05-08 04:30:21.619  8418 10798 E reader_network_resp: https://osservice.vmos.com/gather/trajectory/save?s=5e93f0a9585ef88d7ded4055779ae625&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194821616&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:21.619  8418 10798 E reader_network_resp: timestamp: 1778194821618
+05-08 04:30:21.619  8418 10798 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:21.619  8418 10798 E reader_network_resp:  
+05-08 04:30:21.667  8418 10752 W com.vmos.glb: Cleared Reference was only reachable from finalizer (only reported once)
+05-08 04:30:21.678  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~riw2poS7n8hf5Vq8eSIXOg==/com.whatsapp.w4b-uVyCZw-QsBoTXLbAdv-ucg==/base.apk' with 1 weak references
+05-08 04:30:21.679  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~riw2poS7n8hf5Vq8eSIXOg==/com.whatsapp.w4b-uVyCZw-QsBoTXLbAdv-ucg==/split_config.arm64_v8a.apk' with 1 weak references
+05-08 04:30:21.679  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~riw2poS7n8hf5Vq8eSIXOg==/com.whatsapp.w4b-uVyCZw-QsBoTXLbAdv-ucg==/split_config.xxhdpi.apk' with 1 weak references
+05-08 04:30:21.679  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Lxlen5QMV_geRjd1VBgUIA==/org.telegram.messenger-vxgWX1wA5EoG4gV1PpTgQA==/base.apk' with 1 weak references
+05-08 04:30:21.679  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Lxlen5QMV_geRjd1VBgUIA==/org.telegram.messenger-vxgWX1wA5EoG4gV1PpTgQA==/split_config.arm64_v8a.apk' with 1 weak references
+05-08 04:30:21.679  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Lxlen5QMV_geRjd1VBgUIA==/org.telegram.messenger-vxgWX1wA5EoG4gV1PpTgQA==/split_config.en.apk' with 1 weak references
+05-08 04:30:21.679  8418 10756 W com.vmos.glb: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Lxlen5QMV_geRjd1VBgUIA==/org.telegram.messenger-vxgWX1wA5EoG4gV1PpTgQA==/split_config.xxhdpi.apk' with 1 weak references
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ║ Thread: main
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ║ ApiManager$3.accept  (ApiManager.java:107)
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ║ doOnSubscribe（Okhttp）：main
+05-08 04:30:22.047  8418  8418 D PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.048  8418  8418 E socket  : ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.048  8418  8418 E socket  : ║ Thread: main
+05-08 04:30:22.048  8418  8418 E socket  : ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.048  8418 10794 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.048  8418 10794 E VersionHelper: getRomVersion 
+05-08 04:30:22.048  8418 10794 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.048  8418 10794 D xiaozhishi_network_req: 1778194822048--intercept
+05-08 04:30:22.049  8418  8418 E socket  : ║ SocketServerUtils.creatServerSocket  (SocketServerUtils.java:172)
+05-08 04:30:22.049  8418  8418 E socket  : ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.049  8418  8418 E socket  : ║ 开启服务
+05-08 04:30:22.049  8418  8418 E socket  : ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.049  8418 10794 E reader_network_req: https://osservice.vmos.com/gather/apps/save?s=837f5cf0a69ab0dd5d7b9a4ab423b3b9&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822048&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.049  8418 10794 E reader_network_req: timestamp: 1778194822049
+05-08 04:30:22.049  8418 10794 E reader_network_req: thread: 22722795
+05-08 04:30:22.049  8418 10794 E reader_network_req: Content-Type: application/json; charset=UTF-8
+05-08 04:30:22.049  8418 10794 E reader_network_req: Content-Length: 7637
+05-08 04:30:22.049  8418 10794 E reader_network_req: androidApi: 1.0.31
+05-08 04:30:22.049  8418 10794 E reader_network_req: Access-Token: 
+05-08 04:30:22.049  8418 10794 E reader_network_req: User-ID: 999cdf603f7166bb
+05-08 04:30:22.049  8418 10794 E reader_network_req: Content-Type: application/json; charset=utf-8
+05-08 04:30:22.049  8418 10794 E reader_network_req: requestBody: {"msg":"7BfSULGLlAlcVfFhX21Nz5AGv6p38XwMnmYEnnONvUs/7NKNhCCxxyESMeiv71eM8/NkYM1qlccr\nGbgdJB8NW3kA4dvSszKMvK/0cQpUIIVkncJvvj7po59Z jb0qR4i6SF3ytGso pNJ8HfXqpICMRK\nkYqrwRf9cg6anNAkJR/13myw 9GnbLi6Rw0LAX8tJu68WkIe/Wx3QZfaxVCw4wMmaDF1mrA5MNxa\n5p9RnbvRv3Wj4Q/YUAXj3lj6alE9mhpqtNFD7NsuX3PQhuz8wJ/ozf5Rq n8MUpBs9NZlB9aF8PX\nZw/aA7u7YGTIH3djRjFsMp3I18HP8ZIzgklqyTkOWpUFgyCXEmpHa/FQDJsncGiNlIkffhD6iyB4\nDp9TdYm7e6tf0Tu8XZp3DEgmLtZ gCQmndYMkwYaDCIST4j/3m9Xfln4SEGFW2mR85QxdBG42XcQ\nVkVRwNRy4hm8uf5OFH7bPAaaUA0Jjhybg4CfqZWGDaYk2WiJRD24XEK6w50IW9ETNnHL55OLhh6M\nlFp4/YF5GWViz55R2kj1A9vFK6gDSzaTROlgsuo6x648dEB03Ai53uFluOfcIIYl/S6s2WkmeCql\nMXLMfjIbPMRQFzblLl88d MHJQBYRqOD1iYtKEPC672MH/IB24Jv8Gj9vgWUizrSwl2JODFaJAF7\nR OHm7xdxLMdPFVgrqBfLIvBQkkSmjpS1ExtCj9fNzWH8n50pg4Z5jBNVNEO2NWuEcq9wUHAFd04\nq e2AzBCNJJdnWygFvOQYbS8wCiqcWas1/gXG9z6CnDFiKcriWjtmAYlgTRMrB1Rm/xqr8OCAUKC\nhXRdraTVlqJ3yWXqnkQUPxOFxSFBrC4F6bht8OB65QsN5R33Bosy6UCj55ZW9igWWsJYiQFnJcOF\nmwprM3cHPGCN/FNWbzEvQibtY6zBCX6L2o9rn2c0aIa2zstFA89NdUL7zrKbON29T0F/bZPBEeMH\n PqjJ74AyUnUxRCt tWnq8nqgq /PFXpBEzkITP5uGh3qpWvcmCXMQ1eGqer177f8jeKlbuyWukL\nHf0BYWSxRm1lBw0U164eaKFWXGBp962jRfit6I9hF58jB4lFAXKf6H5nVYEq4qRtXAayuriwT823\nxZ01z1SDjPZSzkZ31Y2VseHc5j7rIoi0VmPRsML8PgyXCuhHBpDHs9AMbPziO8pxQE5MwPAl8Co9\nPY483QjSLiicZYTH81U9DxUGl8A6MtnytgpX1MBgy6L0lMjG33FwbHJrzkkvPufg9bmTRYh8lg8c\njEmpaX xmOiZrAcrmQDf26mdcWzQ4C/xqWRXIDGVDgBa9shBRmqMKrq ooj7E840CqFqt7OR7GlH\n/IDFJn9XV8mBLYcOLRLwxaaYBzYWlOZvFvst3x2fv1g36Z1Gyenn/D42EU4sN7IQ3UEsvfN60Nmo\nyF7zMTJDkQhlspXWcdpCTaQ29rlYGRMZQQnqslUAQBZiok4zRirsxaLqWoGKCJyhc/Kh8mAo 1G8\n/B7om y6Z8/nGd8V5gBRiB2iaptwazkSlhUXynZMkgBx6sVfsKbkdjYDQ2HA R2Tnu25URXu8R4N\nSQVLLAEqjHW3kB3m3YaTmdn9TruNSpc/q p2EKkm64zlO7rkNFH0pNRKzdXhCHUO3nCcdvHu4L D\nejxpKaI04DDgooKwkq2VXHVncGpiUDSmqCJvua3mXG6jD63o5XC0wNOIWOszNEIPC/e1NUqdYfPg\nrewUKg15wHRhGF5PstLzmzgFu8Yr6tmdOz/ymB73Fh dzyzaDgqPPkRuYcGsp63wJgdMrl wovbd\nfH8 F8O0BldWopHmSqG1zEu7pSrHART9YL0A6ILDRH/g zf8AuaJAgN0CwpzmuYviz8IXv4NICTe\ninQEAPlQxKc4MxABcPFyxJ1y0GoTf6UmHTGtgTDt8tBqfVfzgNm13y6u3Gam5pFqlNZE55ltZYAI\nW17SZTUXZQh0lgNzrvkA0w/qWLOVI6kOs3LlNCuZAAL8KimPIrYEJuY 7oRbGtvu23Uto8ct5/P2\ng/ir975WdqMt0nHzqlFl3nB4h77Aeoef/7FFGeAqI9p/Ot3HlWtvOigJeOjAt/qxyM7c54M5J Of\nnPS3mStn/0FteZ0805CM3PE5vLIjF3GGrtQCTkPMAAkAY4F9OvYTKP96KvqbPZjB1LolsbK/pCrq\n0kFmfKeaYbaNH9qgBJQJWyiHTK/xefL4fv5i4cjUKl1KLWfKJZ6NpaYkPjKBDf4hJh9KOf7xC6PQ\nQqBbDJVw6VIO QANmJWkhJTxo0CYNcIoPIBPiU5DaXdvot2 ii6 dCCJma2If0uYq85A9XzXVU0b\nuMOMzFDOCABSI2PCev1sTZmpYlhTofSaiYV 3xzuPethld2XKMdQlGO5Za wiyhtB7dgmCu/e01Q\nOu V9eRELjbHwDr9FqAPZUDFrIHR4lBaDCdhuqaac1jdWECuRGcckSSo IPDzlTNb37qwgiCQUCB\nIEOdnHbb1pHIcw1pwLdYuxx8A4UfEUMKqmPLg1cCGuZTsZ3DkaUT5zyKYQUccvP/ltcOFQ8YlAQr\nCwQT2ZrAVEEt7LWrrV7QwdNfu Sq0WGhs4GeOeepGWLYzBoVw8WxdGDMc9mfKrhICL1AXao4FnO5\nC0vPQPHwZDDVdIiwTqQ6m1D73CycyRqC79Jj4dM9sik9GpgITQWfiLgEJ5pLUvAsVHgyRGHOqypb\naR6DX0BJHR TGwQVzuV2tpNQc/lDeDjSOv9rjgZMbgjA0U64tBYJZ075sbsuS3i12xsd hHI18X7\nYxI0hBgohv6JNFo2BThyWNUctX2kNAHRBQqdd8iBrBb2iJ7OT2JceNteoPGmR/qrv3ZuiI/7BztV\nF4tg6iK7m63gXEsspRygRrFUfXhE2bx6TfLAY4SmGyAo/Vh4qdx3ussjoTpd5tslDQ r9H8ObU4m\nMgasPNfO9nJXh6iAjtSKW5Vnbh 8JPk0XBdPQ/6Tvq2OpoJZjQ8zdtnucgsrnWFN hHPlvsqFEj5\n2duYRj2OwFvtDS70gIjkc19/BOjjlP3kwZClWIJGLADww2KJmoYLzPvYl/NEr92ufV7KJq8M/xXy\n9sdD9msc4sbQdZz60enlKYTriPT2DPRycdWCr8 mK6sotHQsEtNF1oSuhNmhqWM9HnPimGWnTCtI\nHpIyySJxDUXMPzdubkC80klNQ6nXQBaTODm5sp5n8n 0KKZNuzC3RswETZDMnhCYiy4jAgTx6Ltq\nB2VlWWE6BJMae wEZ6wk7Q8un3D7qdAlLGHyggMClxbNUr88ul7bgvZA03b93W2RAtBMJDZcOWRQ\n shppI afHLH0OLTHAZps7F7oeJMFeJnMRP9kG5TbYxH46LB/vZOadRMUCvyliH8DcTmti3g9/n9\nA2f7wnBbCZwUFgBO91k5wS4kOccrllmp9OzKwyYj GI1C1P5VUJH8lw0xtAGBJ5dWy0Bxm1MF6qg\nKoKQZnMOEo2I2ydq9VB vplcIDkwFMThq7PBkBkQuN9MxaVV/a2h/UlfIbipE47F55nagqscno6V\n1btpdqGXdVkIL9qG4QEzumnFTVzzPjhSe8OhBs8fSTk5C6yhoROehDkHfUGa9gNy1Zzpw7w6hCMq\npFV/UnkOxyQfyywRQWIGtx4AsrceO9NpQ1Fls4NuS3ELTbbCjsdfJEFB7D1a3WCiLwd/ZVWZGGXp\nsDGzlAqoosn9zWv7HZD8A06yUjuPFn95xJlwbpod UFvpIzoXGM9IlQH5vad70YMsEZKc0r0t2UK\ng ED3RpWhfx1/JGiOze9V5TasIe MmFAJHPfdUWBvO8S9NdoOx1yrhJW6JctJ9lxV9xglYoFZBxl\n3RDZ961wTG6MQMl7
+05-08 04:30:22.049  8418 10794 E reader_network_req: https://osservice.vmos.com/gather/apps/save?s=837f5cf0a69ab0dd5d7b9a4ab423b3b9&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822048&u=999cdf603f7166bb&c=glb&v=100031&rv=0?msg=7BfSULGLlAlcVfFhX21Nz5AGv6p38XwMnmYEnnONvUs/7NKNhCCxxyESMeiv71eM8/NkYM1qlccr
+05-08 04:30:22.049  8418 10794 E reader_network_req: GbgdJB8NW3kA4dvSszKMvK/0cQpUIIVkncJvvj7po59Z jb0qR4i6SF3ytGso pNJ8HfXqpICMRK
+05-08 04:30:22.049  8418 10794 E reader_network_req: kYqrwRf9cg6anNAkJR/13myw 9GnbLi6Rw0LAX8tJu68WkIe/Wx3QZfaxVCw4wMmaDF1mrA5MNxa
+05-08 04:30:22.049  8418 10794 E reader_network_req: 5p9RnbvRv3Wj4Q/YUAXj3lj6alE9mhpqtNFD7NsuX3PQhuz8wJ/ozf5Rq n8MUpBs9NZlB9aF8PX
+05-08 04:30:22.049  8418 10794 E reader_network_req: Zw/aA7u7YGTIH3djRjFsMp3I18HP8ZIzgklqyTkOWpUFgyCXEmpHa/FQDJsncGiNlIkffhD6iyB4
+05-08 04:30:22.049  8418 10794 E reader_network_req: Dp9TdYm7e6tf0Tu8XZp3DEgmLtZ gCQmndYMkwYaDCIST4j/3m9Xfln4SEGFW2mR85QxdBG42XcQ
+05-08 04:30:22.049  8418 10794 E reader_network_req: VkVRwNRy4hm8uf5OFH7bPAaaUA0Jjhybg4CfqZWGDaYk2WiJRD24XEK6w50IW9ETNnHL55OLhh6M
+05-08 04:30:22.049  8418 10794 E reader_network_req: lFp4/YF5GWViz55R2kj1A9vFK6gDSzaTROlgsuo6x648dEB03Ai53uFluOfcIIYl/S6s2WkmeCql
+05-08 04:30:22.049  8418 10794 E reader_network_req: MXLMfjIbPMRQFzblLl88d MHJQBYRqOD1iYtKEPC672MH/IB24Jv8Gj9vgWUizrSwl2JODFaJAF7
+05-08 04:30:22.049  8418 10794 E reader_network_req: R OHm7xdxLMdPFVgrqBfLIvBQkkSmjpS1ExtCj9fNzWH8n50pg4Z5jBNVNEO2NWuEcq9wUHAFd04
+05-08 04:30:22.049  8418 10794 E reader_network_req: q e2AzBCNJJdnWygFvOQYbS8wCiqcWas1/gXG9z6CnDFiKcriWjtmAYlgTRMrB1Rm/xqr8OCAUKC
+05-08 04:30:22.049  8418 10794 E reader_network_req: hXRdraTVlqJ3yWXqnkQUPxOFxSFBrC4F6bht8OB65QsN5R33Bosy6UCj55ZW9igWWsJYiQFnJcOF
+05-08 04:30:22.049  8418 10794 E reader_network_req: mwprM3cHPGCN/FNWbzEvQibtY6zBCX6L2o9rn2c0aIa2zstFA89NdUL7zrKbON29T0F/bZPBEeMH
+05-08 04:30:22.049  8418 10794 E reader_network_req:  PqjJ74AyUnUxRCt tWnq8nqgq /PFXpBEzkITP5uGh3qpWvcmCXMQ1eGqer177f8jeKlbuyWukL
+05-08 04:30:22.049  8418 10794 E reader_network_req: Hf0BYWSxRm1lBw0U164eaKFWXGBp962jRfit6I9hF58jB4lFAXKf6H5nVYEq4qRtXAayuriwT823
+05-08 04:30:22.049  8418 10794 E reader_network_req: xZ01z1SDjPZSzkZ31Y2VseHc5j7rIoi0VmPRsML8PgyXCuhHBpDHs9AMbPziO8pxQE5MwPAl8Co9
+05-08 04:30:22.049  8418 10794 E reader_network_req: PY483QjSLiicZYTH81U9DxUGl8A6MtnytgpX1MBgy6L0lMjG33FwbHJrzkkvPufg9bmTRYh8lg8c
+05-08 04:30:22.049  8418 10794 E reader_network_req: jEmpaX xmOiZrAcrmQDf26mdcWzQ4C/xqWRXIDGVDgBa9shBRmqMKrq ooj7E840CqFqt7OR7GlH
+05-08 04:30:22.049  8418 10794 E reader_network_req: /IDFJn9XV8mBLYcOLRLwxaaYBzYWlOZvFvst3x2fv1g36Z1Gyenn/D42EU4sN7IQ3UEsvfN60Nmo
+05-08 04:30:22.049  8418 10794 E reader_network_req: yF7zMTJDkQhlspXWcdpCTaQ29rlYGRMZQQnqslUAQBZiok4zRirsxaLqWoGKCJyhc/Kh8mAo 1G8
+05-08 04:30:22.049  8418 10794 E reader_network_req: /B7om y6Z8/nGd8V5gBRiB2iaptwazkSlhUXynZMkgBx6sVfsKbkdjYDQ2HA R2Tnu25URXu8R4N
+05-08 04:30:22.049  8418 10794 E reader_network_req: SQVLLAEqjHW3kB3m3YaTmdn9TruNSpc/q p2EKkm64zlO7rkNFH0pNRKzdXhCHUO3nCcdvHu4L D
+05-08 04:30:22.049  8418 10794 E reader_network_req: ejxpKaI04DDgooKwkq2VXHVncGpiUDSmqCJvua3mXG6jD63o5XC0wNOIWOszNEIPC/e1NUqdYfPg
+05-08 04:30:22.049  8418 10794 E reader_network_req: rewUKg15wHRhGF5PstLzmzgFu8Yr6tmdOz/ymB73Fh dzyzaDgqPPkRuYcGsp63wJgdMrl wovbd
+05-08 04:30:22.049  8418 10794 E reader_network_req: fH8 F8O0BldWopHmSqG1zEu7pSrHART9YL0A6ILDRH/g zf8AuaJAgN0CwpzmuYviz8IXv4NICTe
+05-08 04:30:22.049  8418 10794 E reader_network_req: inQEAPlQxKc4MxABcPFyxJ1y0GoTf6UmHTGtgTDt8tBqfVfzgNm13y6u3Gam5pFqlNZE55ltZYAI
+05-08 04:30:22.049  8418 10794 E reader_network_req: W17SZTUXZQh0lgNzrvkA0w/qWLOVI6kOs3LlNCuZAAL8KimPIrYEJuY 7oRbGtvu23Uto8ct5/P2
+05-08 04:30:22.049  8418 10794 E reader_network_req: g/ir975WdqMt0nHzqlFl3nB4h77Aeoef/7FFGeAqI9p/Ot3HlWtvOigJeOjAt/qxyM7c54M5J Of
+05-08 04:30:22.049  8418 10794 E reader_network_req: nPS3mStn/0FteZ0805CM3PE5vLIjF3GGrtQCTkPMAAkAY4F9OvYTKP96KvqbPZjB1LolsbK/pCrq
+05-08 04:30:22.049  8418 10794 E reader_network_req: 0kFmfKeaYbaNH9qgBJQJWyiHTK/xefL4fv5i4cjUKl1KLWfKJZ6NpaYkPjKBDf4hJh9KOf7xC6PQ
+05-08 04:30:22.049  8418 10794 E reader_network_req: QqBbDJVw6VIO QANmJWkhJTxo0CYNcIoPIBPiU5DaXdvot2 ii6 dCCJma2If0uYq85A9XzXVU0b
+05-08 04:30:22.049  8418 10794 E reader_network_req: uMOMzFDOCABSI2PCev1sTZmpYlhTofSaiYV 3xzuPethld2XKMdQlGO5Za wiyhtB7dgmCu/e01Q
+05-08 04:30:22.049  8418 10794 E reader_network_req: Ou V9eRELjbHwDr9FqAPZUDFrIHR4lBaDCdhuqaac1jdWECuRGcckSSo IPDzlTNb37qwgiCQUCB
+05-08 04:30:22.049  8418 10794 E reader_network_req: IEOdnHbb1pHIcw1pwLdYuxx8A4UfEUMKqmPLg1cCGuZTsZ3DkaUT5zyKYQUccvP/ltcOFQ8YlAQr
+05-08 04:30:22.049  8418 10794 E reader_network_req: CwQT2ZrAVEEt7LWrrV7QwdNfu Sq0WGhs4GeOeepGWLYzBoVw8WxdGDMc9mfKrhICL1AXao4FnO5
+05-08 04:30:22.049  8418 10794 E reader_network_req: C0vPQPHwZDDVdIiwTqQ6m1D73CycyRqC79Jj4dM9sik9GpgITQWfiLgEJ5pLUvAsVHgyRGHOqypb
+05-08 04:30:22.049  8418 10794 E reader_network_req: aR6DX0BJHR TGwQVzuV2tpNQc/lDeDjSOv9rjgZMbgjA0U64tBYJZ075sbsuS3i12xsd hHI18X7
+05-08 04:30:22.049  8418 10794 E reader_network_req: YxI0hBgohv6JNFo2BThyWNUctX2kNAHRBQqdd8iBrBb2iJ7OT2JceNteoPGmR/qrv3ZuiI/7BztV
+05-08 04:30:22.049  8418 10794 E reader_network_req: F4tg6iK7m63gXEsspRygRrFUfXhE2bx6TfLAY4SmGyAo/Vh4qdx3ussjoTpd5tslDQ r9H8ObU4m
+05-08 04:30:22.049  8418 10794 E reader_network_req: MgasPNfO9nJXh6iAjtSKW5Vnbh 8JPk0XBdPQ/6Tvq2OpoJZjQ8zdtnucgsrnWFN hHPlvsqFEj5
+05-08 04:30:22.049  8418 10794 E reader_network_req: 2duYRj2OwFvtDS70gIjkc19/BOjjlP3kwZClWIJGLADww2KJmoYLzPvYl/NEr92ufV7KJq8M/xXy
+05-08 04:30:22.049  8418 10794 E reader_network_req: 9sdD9msc4sbQdZz60enlKYTriPT2DPRycdWCr8 mK6sotHQsEtNF1oSuhNmhqWM9HnPimGWnTCtI
+05-08 04:30:22.049  8418 10794 E reader_network_req: HpIyySJxDUXMPzdubkC80klNQ6nXQBaTODm5sp5n8n 0KKZNuzC3RswETZDMnhCYiy4jAgTx6Ltq
+05-08 04:30:22.049  8418 10794 E reader_network_req: B2VlWWE6BJMae wEZ6wk7Q8un3D7qdAlLGHyggMClxbNUr88ul7bgvZA03b93W2RAtBMJDZcOWRQ
+05-08 04:30:22.049  8418 10794 E reader_network_req:  shppI afHLH0OLTHAZps7F7oeJMFeJnMRP9kG5TbYxH46LB/vZOadRMUCvyliH8DcTmti3g9/n9
+05-08 04:30:22.049  8418 10794 E reader_network_req: A2f7wnBbCZwUFgBO91k5wS4kOccrllmp9OzKwyYj GI1C1P5VUJH8lw0xtAGBJ5dWy0Bxm1MF6qg
+05-08 04:30:22.049  8418 10794 E reader_network_req: KoKQZnMOEo2I2ydq9VB vplcIDkwFMThq7PBkBkQuN9MxaVV/a2h/UlfIbipE47F55nagqscno6V
+05-08 04:30:22.049  8418 10794 E reader_network_req: 1btpdqGXdVkIL9qG4QEzumnFTVzzPjhSe8OhBs8fSTk5C6yhoROehDkHfUGa9gNy1Zzpw7w6hCMq
+05-08 04:30:22.049  8418 10794 E reader_network_req: pFV/UnkOxyQfyywRQWIGtx4AsrceO9NpQ1Fls4NuS3ELTbbCjsdfJEFB7D1a3WCiLwd/ZVWZGGXp
+05-08 04:30:22.049  8418 10794 E reader_network_req: sDGzlAqoosn9zWv7HZD8A06yUjuPFn95xJlwbpod UFvpIzoXGM9IlQH5vad70YMsEZKc0r0t2UK
+05-08 04:30:22.049  8418 10794 E reader_network_req: g ED3RpWhfx1/JGiOze9V5TasIe MmFAJHPfdUWBvO8S9NdoOx1yrhJW6JctJ9lxV9xglYoFZBxl
+05-08 04:30:22.049  8418 10794 E reader_network_req: 3RDZ961wTG6MQMl7yOGPlfrMVX4stH1kMQ6fMXfDYVY0jTNIQqY V8wSv4qw3mIfZFf 9g4jzHnF
+05-08 04:30:22.049  8418 10794 E reader_network_req: PeTj45qkWQERtUKsj2UJWJ1ZNABgOB deD790CTYs pNwykq/Sjgq9cFOHVxn6fnDXSD9PELRjmF
+05-08 04:30:22.049  8418 10794 E reader_network_req: b0Y2QGNV0RlmP1AwC3jvrXy1YCTTjoFAPtPSTYbGOq3VD3BG1Lq7jl54rIqCJ19w1UxIj RJRKho
+05-08 04:30:22.049  8418 10794 E reader_network_req: 6wayM1lNq XhQzrKwAAK6X/KTEWiXxebIqT6yzZA3YkX1CoDz3vQhcPoDORMo3 JmNuMAETNamJe
+05-08 04:30:22.049  8418 10794 E reader_network_req: 2qvoA/srgR/DtfiJxSmGj/VQQ1RlfYytQ FOVtNu05gldx2thEABlRC/NC7PMZ4Ii4Z4UO8vaKQw
+05-08 04:30:22.049  8418 10794 E reader_network_req: e8dGMwRrxSEB0s2YaSv8cJL2RhvZx3jBddW9Wkphmzizj1wk1YdlecTZ80Azfl bJzf83p7SpcCw
+05-08 04:30:22.049  8418 10794 E reader_network_req: btdnUdSy83yS5k8c7mXxDxDG4NPJENbzShSynDx2Xmm LryeFO2TKfbS8isIVlQp9BEDp38wfJm0
+05-08 04:30:22.049  8418 10794 E reader_network_req: a R6JP5EVUB2DxbX zh9UJTITOxj3l/5pAB3QMPQWWRKP2HB/EOSDCxhZzto1PSL7A mVCXlqoOS
+05-08 04:30:22.049  8418 10794 E reader_network_req: b3zZRD5O2QAV8PkJ0LHNauVGaxDDdJMFVXVRQOqdOyViYaDe2 Fv4hMzusX5E624sLs1kGZ93rrP
+05-08 04:30:22.049  8418 10794 E reader_network_req: lYNln ATM2ryRHVa8 xefepqoB7fbKCyH1GnzjCXMh7tdVqibWh3Bnm28zX gfzj21hEEchrjmqP
+05-08 04:30:22.049  8418 10794 E reader_network_req: 9oOXT0DX51SyDoDQEflUhezF6FYblN5fxgSazQ2OfXXsobnlTeQRoS4udsShtsc06XJXuoPuzLMB
+05-08 04:30:22.049  8418 10794 E reader_network_req: jTPwgtiOHNpPoWyY6UqKB 7J5N5qn hZLcBsGCIszljHEGJG1YV6izFXK3nVUavllqujjtaI1xp1
+05-08 04:30:22.049  8418 10794 E reader_network_req: p5Uzgs/g5V/mXY1sRCKZhEbZqO5kilgIndNWpJ9o5wPiUfx2jdOxPwZLLlZtPInRbUKYpsv5KnB4
+05-08 04:30:22.049  8418 10794 E reader_network_req: KJxOGowkorb9shlfNBePzSDAg9rHwyDaJ3h0GMKafHMGWlNPOQf7FvliQDT8nMowKgXnKAs2lrEb
+05-08 04:30:22.049  8418 10794 E reader_network_req:  NzBKWyBj6bOoucSylMf9OdCzU9VYa6iqo RP8cFe8lWdF0XyBBxXE3a/BRQesMI1od6xBzGgAyS
+05-08 04:30:22.049  8418 10794 E reader_network_req: 68h/zSYkSkYy8xjv4 bqCy nI0twwS0EEjTYjbIJkMkJbPAZjJm2BcpMAnV3OfNb/EKPXoI1YkiZ
+05-08 04:30:22.049  8418 10794 E reader_network_req: kTnW8XijZF9EwpWESA12URpswDiU o5DedDGCPc2zIJP3CuCFnyYIngumrpa2Rf9kxLwjEGnKqsR
+05-08 04:30:22.049  8418 10794 E reader_network_req: UqSC8kZnsOnvxEfee9qBkp/RkpvFuR7YDACgIBs3i8xR/RXLKJRQc2adFu0HEnk7rWM86HCAZFWo
+05-08 04:30:22.049  8418 10794 E reader_network_req: LHgdhoHexBLTCcPyoFZaAlmdnYXlfzvHeykV1otddAtvnQGTTb47DsIWInzYDg5c6xkloUJhiEE2
+05-08 04:30:22.049  8418 10794 E reader_network_req: VAgAfUL3KmXBymem/VG5kr65evaiYhwBKPxJboGWrzpqKwXlHM10NVsPqUar9TVAcw48ZfqS3doL
+05-08 04:30:22.049  8418 10794 E reader_network_req: 5Fchuv7oDmOwjY9tn KfQdYxu humYC1fjPbh6nEZt6ZowCTzFGvEqwN0nVTtfH/76O6EhJIwx9P
+05-08 04:30:22.049  8418 10794 E reader_network_req: iRt8ctRNdH5x707rmhxleWpsLqswDGlND7ksCkisL5tU8NfS11MUMBmGlOffZUnESS6DAoCCtzRb
+05-08 04:30:22.049  8418 10794 E reader_network_req: oPOlvkhalOr78wcz/UTEDqkPM2335CGmQI3eljF6szEeHPM2GBB8DX79qeS3aZ3WPqujbg9RA/Tl
+05-08 04:30:22.049  8418 10794 E reader_network_req: 93woxkj l6gaW/lApbUSHn 0 iunwgybzXKCfP4UJOZOAWAMB0Occ4ycAzM4V2B/JGTN9RLRLOaj
+05-08 04:30:22.049  8418 10794 E reader_network_req: GsxpDfWm1TBZm8vxvntafqRaI5K8Te4W75IpFlv7iARg55X0eR9veB8dK5TlyeRw4G R2A3IFROH
+05-08 04:30:22.049  8418 10794 E reader_network_req: fDliYN6TDqR57ic  3X1zuNg8ckIdfHGKLfe6w9RWodch/FDc7KCPxQNxek1CTjsQDwmFtjnXQlS
+05-08 04:30:22.049  8418 10794 E reader_network_req: 1UliUfFOgf7IFehvDPel2q/7teA6CUVcj9VbyEYW9y5Fpu 22ntZhKexF2UbcGKD3eImBdrHfZGC
+05-08 04:30:22.049  8418 10794 E reader_network_req: v3GzwANKmXDXg1cuu/KZpmm5TtXG5arUkKn3y5QrsBYvVobSOYu2tiIR JrLX80hToVT5FIjinwc
+05-08 04:30:22.049  8418 10794 E reader_network_req: as/F9WqjC5SV0JZH5AjUHDj7iBsJT3FxbdcJO3FR5Rs5hpWKmQJrR0i9AZlX2nT536O5ZIdvMCzl
+05-08 04:30:22.049  8418 10794 E reader_network_req: X5ZQhVpT1dYKp4nZiLxO 2n1eUhUVwaAcwbty6cj /V5KV/Hzvw8dtBQ3aSnCNeqGUp2N4jB54d2
+05-08 04:30:22.049  8418 10794 E reader_network_req: UwsjlaBak0rzbJPuQLJlvsRyM03Qt3UUJ3cUGzM6fknfSiXFA9NoLqnvMD CQ cJKppAq5bd08 N
+05-08 04:30:22.049  8418 10794 E reader_network_req: Q0KQKhnPYjZOpVxq5B/mpbqJczEL7 1tMvfHM9EtDrtelQYdx2ABfADzLBVWFy0XF mCVKn4cRB2
+05-08 04:30:22.049  8418 10794 E reader_network_req: wF1lDAk7aXBxJnfoz/XtIRJIzziPzLqXeoHQWGjiHQYOI7x23rRQUpFob83kUBbLFJELUYBrxLj0
+05-08 04:30:22.049  8418 10794 E reader_network_req: 5ThQvj2iQDwrM OesKzzrQQ8OY8RQjRB2pNv64apJ//7B7XwPoyaJV96E3uoFrOc1FVSO GXQtpB
+05-08 04:30:22.049  8418 10794 E reader_network_req: rlMrPK0UHwpOuXltQxtUbBMXZ5d1RkxoOpPQzM Q4Z8RuA4WPGh0brU9yawlDHVJbAOZiVC593o0
+05-08 04:30:22.049  8418 10794 E reader_network_req: 437ULlKkNekuO7wbRzM8MnjaCHV10Xy3OAVxelhn2SKaa8raPZb1TRBNwP8crucHYZuCfvThW39R
+05-08 04:30:22.049  8418 10794 E reader_network_req: 2wV06qJMN2NyizLJPHmt KsfhjzTRkZG3FB5qXVfgCRI1tXg6EloLjVy pgw1O47HsNJxWilO  e
+05-08 04:30:22.049  8418 10794 E reader_network_req: eZhJiZuImKSi3ptdNkPLOyE1/9fDXnXrCDdVOweEDTEawGzGTQLWlLiLCSd45e4s6eU/OibEnhW5
+05-08 04:30:22.049  8418 10794 E reader_network_req: uETnpgQVGwQhk00X/rKubRZGBUkCbaVE2r5ZUFhBxwg8uoO9W9CA9zsrVyAd9R63VrohMe/nAf5e
+05-08 04:30:22.049  8418 10794 E reader_network_req: Xns7E9ZaCUYP9tB/wZ72lNaMsxpmdVxZ91L2XHBhqpgvipxXcIvMpjlHAfsujiQqlXRyA4tvkg7m
+05-08 04:30:22.049  8418 10794 E reader_network_req: sHnC3KRl/zE q9iv dSCrFwcVKQCO 7ad8d1zJjyKpGe igHVIUfpHeYk Ncd7hVygcVHLBMAqfB
+05-08 04:30:22.049  8418 10794 E reader_network_req: 57r31neQkOuK66Kkg1aS XiliAz1gcqlbC1t9yRI0RNmtg sYikOlrOCmnQV/73wfX1z ymJPHmV
+05-08 04:30:22.049  8418 10794 E reader_network_req: 7Zdh7KURTIormR7tbRfi9ZRfqlF6AaVwnrxjVpXGpjrpsYJ41uJ/Fh3C2TB9GEaLXLVwttSjdmpT
+05-08 04:30:22.049  8418 10794 E reader_network_req: ROjtL/yVOmATF/KZO8Caf5Zcf5o2qyYOFJz/b87jJHHiifRXQZgwLXqh8MmUeIIzQ/oHGqGSIgFE
+05-08 04:30:22.049  8418 10794 E reader_network_req: mRgtQF/fio/Tahds/wDo3hYABPckAnlwk238pEb27vH5RjJUF2jDBzng/JtHCK9yxYxmqFJ/xMr/
+05-08 04:30:22.049  8418 10794 E reader_network_req:  oqwTQGZOuO0DhTNb sWYe4lOs2lbS9OYY2QYDX zLe6/f8ILE/kNubk2bqvH3vXRzFMR1Twi1Nh
+05-08 04:30:22.049  8418 10794 E reader_network_req: fJRTyy1oHAWf9p6/na70E9PQYdcrvjg=
+05-08 04:30:22.049  8418 10794 E reader_network_req: &createTime=1778194822047
+05-08 04:30:22.049  8418 10794 E reader_network_req: REQUEST END (7637-byte body)
+05-08 04:30:22.049  8418 10794 E reader_network_req:  
+05-08 04:30:22.049  8418 10794 E reader_network_resp: https://osservice.vmos.com/gather/apps/save?s=837f5cf0a69ab0dd5d7b9a4ab423b3b9&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822048&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.049  8418 10794 E reader_network_resp: timestamp: 1778194822049
+05-08 04:30:22.049  8418 10794 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:22.049  8418 10794 E reader_network_resp:  
+05-08 04:30:22.049  8418 12541 E socket  : ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.049  8418  8418 E readInputListenr: startInputListener
+05-08 04:30:22.049  8418 12541 E socket  : ║ Thread: io-pool-1-thread-4
+05-08 04:30:22.049  8418 12541 E socket  : ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.049  8418 12541 E socket  : ║ SocketServerUtils$1.doInBackground  (SocketServerUtils.java:29)
+05-08 04:30:22.049  8418 12541 E socket  : ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.049  8418 12541 E socket  : ║ doInBackground
+05-08 04:30:22.049  8418 12541 E socket  : ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.051  8418  8418 E trajectoryType: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.051  8418  8418 E trajectoryType: ║ Thread: main
+05-08 04:30:22.051  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.051  8418  8418 E trajectoryType: ║ PUserTrajectory.postEventReport  (PUserTrajectory.java:41)
+05-08 04:30:22.051  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.051  8418  8418 E trajectoryType: ║ 1
+05-08 04:30:22.051  8418  8418 E trajectoryType: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ║ Thread: main
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ║ ApiManager$3.accept  (ApiManager.java:107)
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ║ doOnSubscribe（Okhttp）：main
+05-08 04:30:22.052  8418  8418 D PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.052  8418  8418 D SHENG   : INFINIX
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ║ Thread: main
+05-08 04:30:22.052  8418 10795 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.052  8418 10795 E VersionHelper: getRomVersion 
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ║ GeneralUtil.getSystemProperty  (GeneralUtil.java:1658)
+05-08 04:30:22.052  8418 10795 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.052  8418 10795 D xiaozhishi_network_req: 1778194822052--intercept
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ║ ro.dalvik.vm.native.bridge = 0
+05-08 04:30:22.052  8418  8418 E getSystemProperty: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.052  8418 10795 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=bc68200e21efbe173e70bf261d9ef721&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822052&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.052  8418 10795 E reader_network_req: timestamp: 1778194822052
+05-08 04:30:22.052  8418 10795 E reader_network_req: thread: 174833968
+05-08 04:30:22.052  8418 10795 E reader_network_req: Content-Type: application/json; charset=UTF-8
+05-08 04:30:22.052  8418 10795 E reader_network_req: Content-Length: 71
+05-08 04:30:22.052  8418 10795 E reader_network_req: androidApi: 1.0.31
+05-08 04:30:22.052  8418 10795 E reader_network_req: Access-Token: 
+05-08 04:30:22.052  8418 10795 E reader_network_req: User-ID: 999cdf603f7166bb
+05-08 04:30:22.052  8418 10795 E reader_network_req: Content-Type: application/json; charset=utf-8
+05-08 04:30:22.052  8418 10795 E reader_network_req: requestBody: {"msg":"nD2o9KUfQy7TJnDp4QKXwCfJzJ Kssyc\n","createTime":1778194822052}
+05-08 04:30:22.052  8418 10795 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=bc68200e21efbe173e70bf261d9ef721&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822052&u=999cdf603f7166bb&c=glb&v=100031&rv=0?msg=nD2o9KUfQy7TJnDp4QKXwCfJzJ Kssyc
+05-08 04:30:22.052  8418 10795 E reader_network_req: &createTime=1778194822052
+05-08 04:30:22.052  8418 10795 E reader_network_req: REQUEST END (71-byte body)
+05-08 04:30:22.052  8418 10795 E reader_network_req:  
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 E trajectoryType: ║ Thread: main
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418 10795 E reader_network_resp: https://osservice.vmos.com/gather/trajectory/save?s=bc68200e21efbe173e70bf261d9ef721&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822052&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.053  8418 10795 E reader_network_resp: timestamp: 1778194822052
+05-08 04:30:22.053  8418 10795 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:22.053  8418 10795 E reader_network_resp:  
+05-08 04:30:22.053  8418  8418 E trajectoryType: ║ PUserTrajectory.postEventReport  (PUserTrajectory.java:41)
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 E trajectoryType: ║ 20
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ║ Thread: main
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ║ ApiManager$3.accept  (ApiManager.java:107)
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ║ doOnSubscribe（Okhttp）：main
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 E trajectoryType: ║ Thread: main
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 E trajectoryType: ║ PUserTrajectory.postEventReport  (PUserTrajectory.java:41)
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 E trajectoryType: ║ 12
+05-08 04:30:22.053  8418  8418 E trajectoryType: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ║ Thread: main
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ║ ApiManager$3.accept  (ApiManager.java:107)
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ║ doOnSubscribe（Okhttp）：main
+05-08 04:30:22.053  8418  8418 D PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418 10798 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ║ Thread: main
+05-08 04:30:22.053  8418 10798 E VersionHelper: getRomVersion 
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ║ GeneralUtil.getSystemProperty  (GeneralUtil.java:1658)
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ║ ro.product.cpu.abilist64 = arm64-v8a
+05-08 04:30:22.053  8418  8418 E getSystemProperty: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418  8418 D getArchType: ╔════════════════════════════════════════════════════════════════════
+05-08 04:30:22.053  8418 10798 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.053  8418  8418 D getArchType: ║ Thread: main
+05-08 04:30:22.053  8418 10798 D xiaozhishi_network_req: 1778194822053--intercept
+05-08 04:30:22.053  8418  8418 D getArchType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418 10794 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.053  8418  8418 D getArchType: ║ GeneralUtil.getArchType  (GeneralUtil.java:1667)
+05-08 04:30:22.053  8418  8418 D getArchType: ╟────────────────────────────────────────────────────────────────────
+05-08 04:30:22.053  8418 10794 E VersionHelper: getRomVersion 
+05-08 04:30:22.053  8418 10798 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=2911eac1e7493ad9e10762f0f91236c8&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822053&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.053  8418 10798 E reader_network_req: timestamp: 1778194822053
+05-08 04:30:22.053  8418 10798 E reader_network_req: thread: 146441800
+05-08 04:30:22.053  8418 10798 E reader_network_req: Content-Type: application/json; charset=UTF-8
+05-08 04:30:22.053  8418 10798 E reader_network_req: Content-Length: 71
+05-08 04:30:22.053  8418 10798 E reader_network_req: androidApi: 1.0.31
+05-08 04:30:22.053  8418 10798 E reader_network_req: Access-Token: 
+05-08 04:30:22.053  8418 10798 E reader_network_req: User-ID: 999cdf603f7166bb
+05-08 04:30:22.053  8418 10798 E reader_network_req: Content-Type: application/json; charset=utf-8
+05-08 04:30:22.053  8418 10798 E reader_network_req: requestBody: {"msg":"WATc9WFgmi68qMNOmT9nDKAfz1gdBSV5\n","createTime":1778194822053}
+05-08 04:30:22.053  8418 10798 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=2911eac1e7493ad9e10762f0f91236c8&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822053&u=999cdf603f7166bb&c=glb&v=100031&rv=0?msg=WATc9WFgmi68qMNOmT9nDKAfz1gdBSV5
+05-08 04:30:22.053  8418 10798 E reader_network_req: &createTime=1778194822053
+05-08 04:30:22.053  8418 10798 E reader_network_req: REQUEST END (71-byte body)
+05-08 04:30:22.053  8418 10798 E reader_network_req:  
+05-08 04:30:22.054  8418  8418 D getArchType: ║ CPU arch is 64bit
+05-08 04:30:22.054  8418  8418 D getArchType: ╚════════════════════════════════════════════════════════════════════
+05-08 04:30:22.054  8418  8418 E VersionHelper: getRomVersion 
+05-08 04:30:22.054  8418 10794 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+05-08 04:30:22.054  8418 10798 E reader_network_resp: https://osservice.vmos.com/gather/trajectory/save?s=2911eac1e7493ad9e10762f0f91236c8&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822053&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.054  8418 10798 E reader_network_resp: timestamp: 1778194822053
+05-08 04:30:22.054  8418 10798 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:22.054  8418 10798 E reader_network_resp:  
+05-08 04:30:22.054  8418  8418 E UpdateController: checkUpdate VersionHelper.getRomVersion().versionCode:0
+05-08 04:30:22.054  8418  8418 E VersionHelper: getRomVersion 
+05-08 04:30:22.054  8418 10794 D xiaozhishi_network_req: 1778194822054--intercept
+05-08 04:30:22.054  8418  8418 E LauncherUtil: isGLBVersion
+05-08 04:30:22.054  8418 10794 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=2911eac1e7493ad9e10762f0f91236c8&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822053&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.054  8418 10794 E reader_network_req: timestamp: 1778194822054
+05-08 04:30:22.054  8418 10794 E reader_network_req: thread: 22722795
+05-08 04:30:22.054  8418 10794 E reader_network_req: Content-Type: application/json; charset=UTF-8
+05-08 04:30:22.054  8418 10794 E reader_network_req: Content-Length: 71
+05-08 04:30:22.054  8418 10794 E reader_network_req: androidApi: 1.0.31
+05-08 04:30:22.054  8418 10794 E reader_network_req: Access-Token: 
+05-08 04:30:22.054  8418 10794 E reader_network_req: User-ID: 999cdf603f7166bb
+05-08 04:30:22.054  8418 10794 E reader_network_req: Content-Type: application/json; charset=utf-8
+05-08 04:30:22.054  8418 10794 E reader_network_req: requestBody: {"msg":"WATc9WFgmi68qMNOmT9nDFTWhbbJKrYj\n","createTime":1778194822053}
+05-08 04:30:22.054  8418 10794 E reader_network_req: https://osservice.vmos.com/gather/trajectory/save?s=2911eac1e7493ad9e10762f0f91236c8&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822053&u=999cdf603f7166bb&c=glb&v=100031&rv=0?msg=WATc9WFgmi68qMNOmT9nDFTWhbbJKrYj
+05-08 04:30:22.054  8418 10794 E reader_network_req: &createTime=1778194822053
+05-08 04:30:22.054  8418 10794 E reader_network_req: REQUEST END (71-byte body)
+05-08 04:30:22.054  8418 10794 E reader_network_req:  
+05-08 04:30:22.054  8418  8418 D GoogleObbUtil: fileName:main.100031.com.vmos.glb.obb
+05-08 04:30:22.054  8418  8418 D GoogleObbUtil: xf.mIsMain:true
+05-08 04:30:22.054  8418  8418 D GoogleObbUtil: xf.mFileVersion:100031
+05-08 04:30:22.054  8418  8418 D Helpers : doesFileExist fileName:main.100031.com.vmos.glb.obb  fileSize:301143063  deleteFileOnMismatch:false
+05-08 04:30:22.054  8418 10794 E reader_network_resp: https://osservice.vmos.com/gather/trajectory/save?s=2911eac1e7493ad9e10762f0f91236c8&k=eb759cd6d8e975ec29b999b743123721&auth_ver=2&n=1778194822053&u=999cdf603f7166bb&c=glb&v=100031&rv=0 POST http/1.1
+05-08 04:30:22.054  8418 10794 E reader_network_resp: timestamp: 1778194822054
+05-08 04:30:22.054  8418 10794 E reader_network_resp: HTTP FAILED: java.net.UnknownHostException: Unable to resolve host "osservice.vmos.com": No address associated with hostname
+05-08 04:30:22.054  8418 10794 E reader_network_resp:  
+05-08 04:30:22.054  8418  8418 D Helpers : fileForNewFile PATH:/storage/emulated/0/Android/obb/com.vmos.glb/main.100031.com.vmos.glb.obb
+05-08 04:30:22.055  8418  8418 E LauncherUtil: isUseDefaultRom reuslt:false
+05-08 04:30:22.057  8418  8418 D GoogleObbUtil: startResult:2
+05-08 04:30:22.060  8418  8418 I PhoneWindow: ContextThemeWrapper#generateLayout:Window_statusBarColor=0Xff000000
+05-08 04:30:22.061  8418  8418 E LauncherUtil: isGLBVersion
+05-08 04:30:22.061  8418  8418 D GoogleObbUtil: fileName:main.100031.com.vmos.glb.obb
+05-08 04:30:22.061  8418  8418 D GoogleObbUtil: xf.mIsMain:true
+05-08 04:30:22.061  8418  8418 D GoogleObbUtil: xf.mFileVersion:100031
+05-08 04:30:22.061  8418  8418 D Helpers : doesFileExist fileName:main.100031.com.vmos.glb.obb  fileSize:301143063  deleteFileOnMismatch:false
+05-08 04:30:22.061  8418  8418 D Helpers : fileForNewFile PATH:/storage/emulated/0/Android/obb/com.vmos.glb/main.100031.com.vmos.glb.obb
+05-08 04:30:22.061  8418  8418 E LauncherUtil: isUseDefaultRom reuslt:false
+05-08 04:30:22.063  8418  8418 D VRI[LauncherActivity]: hardware acceleration = true, forceHwAccelerated = false
+--------- beginning of system
+05-08 04:30:22.063  8418  8418 D ViewRootImpl: setView appearance:0 com.vmos.glb/com.vmos.glb.LauncherActivity
+05-08 04:30:22.065  8418  8418 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+05-08 04:30:22.067  8418  8418 D CrashReport: >>> com.vmos.glb.LauncherActivity onResumed <<<
+05-08 04:30:22.067  8418 12547 E preferencesSaveCall: saveParam: SPGETAPPJSON
+05-08 04:30:22.067  8418  8418 I CrashReport-Native: Set native info: isAppForeground(true)
+05-08 04:30:22.067  8418  8418 D ActivityThread: handleResumeActivity#3 r.window=nulla.mFinished = falsewillBeVisible = true
+05-08 04:30:22.067  8418  8418 D ActivityThread: handleResumeActivity#4 addView a.mVisibleFromClient=truea.mWindowAdded=falsedecor=DecorView@d047d5[]
+05-08 04:30:22.067  8418  8418 D ActivityThread: handleResumeActivity#5 addView decor=DecorView@d047d5[]
+05-08 04:30:22.068  8418  8418 D VRI[LauncherActivity]: hardware acceleration = true, forceHwAccelerated = false
+05-08 04:30:22.068  8418  8418 D ViewRootImpl: setView appearance:0 com.vmos.glb/com.vmos.glb.LauncherActivity
+05-08 04:30:22.070  8418  8418 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+05-08 04:30:22.070  8418  8418 I Choreographer: Skipped 55 frames!  The application may be doing too much work on its main thread.
+05-08 04:30:22.073  8418  8418 D BufferQueueConsumer: [](id:20e200000008,api:0,p:-1,c:8418) connect: controlledByApp=false
+05-08 04:30:22.074  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#8](f:0,a:0) constructor()
+05-08 04:30:22.074  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#8](f:0,a:0) update width=1224 height=1094 format=-2 mTransformHint=0
+05-08 04:30:22.080  8418 10789 D BLASTBufferQueue: [VRI[LauncherActivity]#8](f:0,a:1) acquireNextBufferLocked size=1224x1094 mFrameNumber=1 applyTransaction=true mTimestamp=836459283865702(auto) mPendingTransactions.size=0 graphicBufferId=36155034697787 transform=0
+05-08 04:30:22.087  8418  8418 D BufferQueueConsumer: [](id:20e200000009,api:0,p:-1,c:8418) connect: controlledByApp=false
+05-08 04:30:22.087  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#9](f:0,a:0) constructor()
+05-08 04:30:22.087  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#9](f:0,a:0) update width=1224 height=2720 format=-1 mTransformHint=0
+05-08 04:30:22.090  8418 10789 D BLASTBufferQueue: [VRI[LauncherActivity]#9](f:0,a:1) acquireNextBufferLocked size=1224x2720 mFrameNumber=1 applyTransaction=true mTimestamp=836459294024087(auto) mPendingTransactions.size=0 graphicBufferId=36155034697793 transform=0
+05-08 04:30:22.091  8418  8418 W System.err: java.io.IOException: Address already in use
+05-08 04:30:22.091  8418  8418 W System.err: 	at android.net.LocalSocketImpl.bindLocal(Native Method)
+05-08 04:30:22.091  8418  8418 W System.err: 	at android.net.LocalSocketImpl.bind(LocalSocketImpl.java:275)
+05-08 04:30:22.091  8418  8418 W System.err: 	at android.net.LocalServerSocket.<init>(LocalServerSocket.java:49)
+05-08 04:30:22.091  8418  8418 W System.err: 	at com.vmos.glb.socket.SocketServerUtils$1.doInBackground(SocketServerUtils.java:30)
+05-08 04:30:22.091  8418  8418 W System.err: 	at com.vmos.glb.socket.ThreadUtils$Task.run(ThreadUtils.java:997)
+05-08 04:30:22.091  8418  8418 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-08 04:30:22.091  8418  8418 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-08 04:30:22.091  8418  8418 W System.err: 	at java.lang.Thread.run(Thread.java:1564)
+05-08 04:30:22.091  8418  8418 W System.err: 	at com.vmos.glb.socket.ThreadUtils$UtilsThreadFactory$1.run(ThreadUtils.java:1071)
+05-08 04:30:22.092  8418  8418 W System.err: java.io.IOException: Address already in use
+05-08 04:30:22.092  8418  8418 W System.err: 	at android.net.LocalSocketImpl.bindLocal(Native Method)
+05-08 04:30:22.092  8418  8418 W System.err: 	at android.net.LocalSocketImpl.bind(LocalSocketImpl.java:275)
+05-08 04:30:22.092  8418  8418 W System.err: 	at android.net.LocalServerSocket.<init>(LocalServerSocket.java:49)
+05-08 04:30:22.092  8418  8418 W System.err: 	at com.vmos.glb.socket.SocketManager$3.doInBackground(SocketManager.java:148)
+05-08 04:30:22.092  8418  8418 W System.err: 	at com.vmos.glb.socket.ThreadUtils$Task.run(ThreadUtils.java:997)
+05-08 04:30:22.092  8418  8418 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+05-08 04:30:22.092  8418  8418 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+05-08 04:30:22.092  8418  8418 W System.err: 	at java.lang.Thread.run(Thread.java:1564)
+05-08 04:30:22.092  8418  8418 W System.err: 	at com.vmos.glb.socket.ThreadUtils$UtilsThreadFactory$1.run(ThreadUtils.java:1071)
+05-08 04:30:22.092  8418  8418 E onFail  : onFail: Address already in use
+05-08 04:30:22.098  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#8](f:0,a:1) update width=1224 height=974 format=-2 mTransformHint=0
+05-08 04:30:22.101  8418 10789 D BLASTBufferQueue: [VRI[LauncherActivity]#8](f:0,a:2) producer disconnected before acquireNextBufferLocked
+05-08 04:30:22.109  8418  8418 I LicenseChecker: Binding to licensing service.
+05-08 04:30:22.112  8418  8418 E DownloadGoogleRomView: onDownloadStateChanged newState:2
+05-08 04:30:22.112  8418 12505 I InsetsController: Insets animation onAnimationStart mShow:true, mDurationMs:500, types:navigationBars
+05-08 04:30:22.114  8418 12505 I InsetsController: Insets animation onAnimationCancel
+05-08 04:30:22.114  8418 12505 I InsetsController: Insets animation onAnimationEnd
+05-08 04:30:22.123  8418  8418 I LicenseChecker: Calling checkLicense on service for com.vmos.glb
+05-08 04:30:22.123  8418  8418 I LicenseChecker: Start monitoring timeout.
+05-08 04:30:22.407  8418  8418 D VRI[NewSurActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-08 04:30:22.415  8418  8418 D BLASTBufferQueue: [VRI[NewSurActivity]#7](f:0,a:3) destructor()
+05-08 04:30:22.415  8418  8418 D BufferQueueConsumer: [VRI[NewSurActivity]#7(BLAST Consumer)7](id:20e200000007,api:0,p:-1,c:8418) disconnect
+05-08 04:30:22.416  8418  8418 D ActivityThread: mToDestroying.remove:ActivityRecord{24fb6bb token=android.os.BinderProxy@1330c26 {com.vmos.glb/com.vmos.activity.NewSurActivity}}
+05-08 04:30:22.416  8418  8418 D CrashReport: >>> com.vmos.activity.NewSurActivity onDestroyed <<<
+05-08 04:30:22.416  8418  8418 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@9a4eeb7
+05-08 04:30:22.416  8418  8418 D View    : [Warning] assignParent to null: this = DecorView@c5c90ea[NewSurActivity]
+05-08 04:30:22.562  8418 12550 I LicenseChecker: Received response.
+05-08 04:30:22.562  8418 12550 I LicenseChecker: Clearing timeout.
+05-08 04:30:22.562  8418 12550 E LicenseValidator: publicKey:OpenSSLRSAPublicKey{modulus=959395cd40bb59fc52f2ddfb352220fd65717e7056ffc4743bb7e99c35f0d4c72eaf2f98bfb532e16cdf9e9f6245de797b7fe583180c7f2c667fc67744dd7e0362ec7cd9f94993d04fe4f52a5d919f9159ab3e71562169ccefee74d953bf16f2bed2e73867a21bde7969d57dd85d86b0573827206bcba5ee12c96211130a0d9b82abddd933109a6ffc5b38120b6b2722d193ccde68f7132e2b1025fdc0cafc5b8d6a85c75d4afd346b5b447ad08a6f7bbc7526d77fbfee7e248ce80bbb575d0a9f107da5f43d7865efc7aee97e47175e8fd488dbf88f0415cd158c69837be8669394f48d6a11a20965b3aac058ede379a6abda749ea838e04ca8f38e9b0b4461,publicExponent=10001}
+05-08 04:30:22.562  8418 12550 E LicenseValidator: responseCode:3
+05-08 04:30:22.562  8418 12550 E LicenseValidator: signedData:3|1673536684|com.vmos.glb|100031|ANlOHQMlFh0n6oMkZYTA/qGmRc92ppYy0w==|1778194823500
+05-08 04:30:22.562  8418 12550 E LicenseValidator: signature:
+05-08 04:30:22.562  8418 12550 D DownloaderService: applicationError errorCode:3
+05-08 04:30:22.562  8418  8418 E DownloadGoogleRomView: onDownloadStateChanged newState:16
+05-08 04:30:22.621  8418 12505 I InsetsController: Insets animation onAnimationEnd
+05-08 04:30:24.070  8418  8418 E DownloadGoogleRomView: onServiceConnected
+05-08 04:30:24.070  8418  8418 E DownloadGoogleRomView: onDownloadStateChanged newState:16
+05-08 04:30:26.552  8418  8418 D TextSelection: onUseCache cache=false
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: [ANR Warning]Input routeing takes more than 6000ms since 1970-01-01 05:30:00.000, this = com.mediatek.view.impl.ViewDebugManagerImpl@d0f4411
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$NativePreImeInputStage@3195a2 at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ViewPreImeInputStage@e004233 at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$EarlyPostImeInputStage@ce0ae16 at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$SyntheticInputStage@275656d at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ImeInputStage@b9e9f0 at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ViewPostImeInputStage@aa8b984 at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$NativePostImeInputStage@bb90397 at 2026-05-08 04:30:27.285
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: [ANR Warning]Input routeing takes more than 6000ms since 1970-01-01 05:30:00.000, this = com.mediatek.view.impl.ViewDebugManagerImpl@d0f4411
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$EarlyPostImeInputStage@ce0ae16 at 2026-05-08 04:30:27.286
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$SyntheticInputStage@275656d at 2026-05-08 04:30:27.286
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ViewPostImeInputStage@aa8b984 at 2026-05-08 04:30:27.286
+05-08 04:30:27.286  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$NativePostImeInputStage@bb90397 at 2026-05-08 04:30:27.286
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: [ANR Warning]Input routeing takes more than 6000ms since 1970-01-01 05:30:00.000, this = com.mediatek.view.impl.ViewDebugManagerImpl@d0f4411
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$NativePreImeInputStage@3195a2 at 2026-05-08 04:30:27.967
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ViewPreImeInputStage@e004233 at 2026-05-08 04:30:27.967
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$EarlyPostImeInputStage@ce0ae16 at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$SyntheticInputStage@275656d at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ImeInputStage@b9e9f0 at 2026-05-08 04:30:27.967
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ViewPostImeInputStage@aa8b984 at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$NativePostImeInputStage@bb90397 at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: [ANR Warning]Input routeing takes more than 6000ms since 1970-01-01 05:30:00.000, this = com.mediatek.view.impl.ViewDebugManagerImpl@d0f4411
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$EarlyPostImeInputStage@ce0ae16 at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$SyntheticInputStage@275656d at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$ViewPostImeInputStage@aa8b984 at 2026-05-08 04:30:27.968
+05-08 04:30:27.968  8418  8418 V VRI[LauncherActivity]: Input event delivered to android.view.ViewRootImpl$NativePostImeInputStage@bb90397 at 2026-05-08 04:30:27.968
+05-08 04:31:08.387  8418 12020 W CrashReport: java.net.SocketTimeoutException: failed to connect to android.bugly.qq.com/49.44.79.236 (port 80) from /192.0.0.4 (port 48234) after 30000ms
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.net.Socket.connect(Socket.java:646)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:182)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.tencent.bugly.proguard.s.a(BUGLY:266)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.tencent.bugly.proguard.s.a(BUGLY:115)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.tencent.bugly.proguard.v.run(BUGLY:346)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at com.tencent.bugly.proguard.u$1.run(BUGLY:723)
+05-08 04:31:08.387  8418 12020 W CrashReport: 	at java.lang.Thread.run(Thread.java:1564)
+05-08 04:31:08.388  8418 12020 E CrashReport: Failed to upload, please check your network.
+05-08 04:31:08.389  8418 12020 D CrashReport: Failed to execute post.
+05-08 04:31:08.389  8418 12020 E CrashReport: [Upload] Failed to upload(1): Failed to upload for no response!
+05-08 04:31:08.389  8418 12020 W CrashReport: [Upload] Failed to upload last time, wait and try(2) again.
+05-08 04:31:27.536  8418  8418 D TextSelection: onUseCache cache=false
+05-08 04:31:27.648  8418  8418 D CrashReport: >>> com.vmos.glb.LauncherActivity onPaused <<<
+05-08 04:31:27.652  8418  8418 I CrashReport-Native: Set native info: isAppForeground(false)
+05-08 04:31:27.657  8418  8418 E PRETTYLOGGER: ╔════════════════════════════════════════════════════════════════════
+05-08 04:31:27.657  8418  8418 E PRETTYLOGGER: ║ Thread: main
+05-08 04:31:27.657  8418  8418 E PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:31:27.658  8418  8418 E PRETTYLOGGER: ║ KeyReceiver.onReceive  (KeyReceiver.java:43)
+05-08 04:31:27.658  8418  8418 E PRETTYLOGGER: ╟────────────────────────────────────────────────────────────────────
+05-08 04:31:27.658  8418  8418 E PRETTYLOGGER: ║ recentapp action=android.intent.action.CLOSE_SYSTEM_DIALOGS
+05-08 04:31:27.658  8418  8418 E PRETTYLOGGER: ╚════════════════════════════════════════════════════════════════════
+05-08 04:31:28.319  8418  8418 D VRI[LauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-08 04:31:28.321  8418  8418 D VRI[LauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-08 04:31:28.340  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#8](f:0,a:3) destructor()
+05-08 04:31:28.340  8418  8418 D BufferQueueConsumer: [VRI[LauncherActivity]#8(BLAST Consumer)8](id:20e200000008,api:0,p:-1,c:8418) disconnect
+05-08 04:31:28.349  8418  8418 D BLASTBufferQueue: [VRI[LauncherActivity]#9](f:0,a:3) destructor()
+05-08 04:31:28.349  8418  8418 D BufferQueueConsumer: [VRI[LauncherActivity]#9(BLAST Consumer)9](id:20e200000009,api:0,p:-1,c:8418) disconnect
+05-08 04:31:28.706  8418  8418 D ActivityThread: mToDestroying.remove:ActivityRecord{c4c0087 token=android.os.BinderProxy@f255e6d {com.vmos.glb/com.vmos.glb.LauncherActivity}}
+05-08 04:31:28.706  8418  8418 D CrashReport: >>> com.vmos.glb.LauncherActivity onDestroyed <<<
+05-08 04:31:28.707  8418  8418 W EventBus: Subscriber to unregister was not registered before: class com.vmos.glb.LauncherActivity
+05-08 04:31:28.709  8418  8418 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@6717489
+05-08 04:31:28.710  8418  8418 D View    : [Warning] assignParent to null: this = DecorView@d047d5[LauncherActivity]
+05-08 04:31:28.713  8418  8418 E WindowManager: android.view.WindowLeaked: Activity com.vmos.glb.LauncherActivity has leaked window DecorView@3ef8bb4[LauncherActivity] that was originally added here
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:1334)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:1320)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:473)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:158)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.Dialog.show(Dialog.java:361)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.vmos.glb.init.update.DownloadView.show(DownloadView.java:56)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.vmos.glb.init.update.DownloadGoogleRomView.show(DownloadGoogleRomView.java:132)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.vmos.glb.init.update.UpdateController.showDownloadGoogleView(UpdateController.java:276)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.vmos.glb.init.update.UpdateController.checkUpdate(UpdateController.java:143)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.vmos.glb.init.LauncherController.check(LauncherController.java:183)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.vmos.glb.LauncherActivity.onCreate(LauncherActivity.java:135)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.Activity.performCreate(Activity.java:9028)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.Activity.performCreate(Activity.java:9006)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1530)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4285)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4494)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:123)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2786)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.os.Looper.loopOnce(Looper.java:311)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.os.Looper.loop(Looper.java:408)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at android.app.ActivityThread.main(ActivityThread.java:9119)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at java.lang.reflect.Method.invoke(Native Method)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:627)
+05-08 04:31:28.713  8418  8418 E WindowManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:970)
+05-08 04:31:28.714  8418  8418 D View    : [Warning] assignParent to null: this = DecorView@3ef8bb4[LauncherActivity]
+05-08 04:31:28.714  8418  8418 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda12@7749cb6
+05-08 04:31:28.722  8418  8418 E ActivityThread: Activity com.vmos.glb.LauncherActivity has leaked ServiceConnection com.android.vending.expansion.downloader.DownloaderClientMarshaller$Stub$2@2d08731 that was originally bound here
+05-08 04:31:28.722  8418  8418 E ActivityThread: android.app.ServiceConnectionLeaked: Activity com.vmos.glb.LauncherActivity has leaked ServiceConnection com.android.vending.expansion.downloader.DownloaderClientMarshaller$Stub$2@2d08731 that was originally bound here
+05-08 04:31:28.722  8418  8418 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:2108)
+05-08 04:31:28.722  8418  8418 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcherCommon(LoadedApk.java:1980)
+05-08 04:31:28.722  8418  8418 E ActivityThread: 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1959)
+05-08 04:31:28.722  8418  8418 E ActivityThread: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:2373)
+05-08 04:31:28.722  8418  8418 E ActivityThread: 	at android.app.ContextImpl.bindService(ContextImpl.java:2208)
+05-08 04:31:28.722  8418  8418 E ActivityThread
